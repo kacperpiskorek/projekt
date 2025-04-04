@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    font-family: tahoma;
+}
+#góra{
+    flex-direction: column;
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;   
+    color: whitesmoke;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 7px;
+}
+#tył{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+#środek{
+    height: 20%;
+    width: 100%;
+}
+img{
+    height: 400px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center ;
+}
+#tło{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: crimson;
+}
+#dół{
+    margin: 10px;
+    background-color: beige;
+    width: 1890px;
+    height: 40%;
+}
